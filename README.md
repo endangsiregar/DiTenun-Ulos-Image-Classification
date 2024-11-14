@@ -1,6 +1,8 @@
-# PROYEK-DAMI-UlosClassificationUsingKNN
+# PROYEK-DAMI- DiTenun - Ulos Image Classification
 Klasifikasi gambar ulos menggunakan KNN
 Deskripsi Proyek: Proyek ini bertujuan untuk mengembangkan model klasifikasi gambar kain ulos, sebuah kain tradisional dari Sumatera Utara, dengan menggunakan algoritma K-Nearest Neighbors (KNN). Kain ulos memiliki berbagai pola dan motif unik yang menunjukkan makna simbolik dan nilai budaya, sehingga pengenalan dan klasifikasinya memerlukan pendekatan yang tepat. KNN, sebagai algoritma klasifikasi berbasis kedekatan, akan diterapkan untuk mengelompokkan gambar-gambar ulos ke dalam beberapa kategori sesuai dengan motifnya.
+![Uploading image.png…]()
+
 
 Tahapan Proyek CRISP-DM (Cross-Industry Standard Process for Data Mining)::
 1. Business Understanding
