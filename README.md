@@ -2,6 +2,7 @@
 ## Klasifikasi gambar ulos menggunakan KNN
 DiTenun (Digital Tenun Nusantara) adalah start up yang berfokus pada penciptaan motif tenun digital lewat aplikasi berbasis AI (kecerdasan buatan). Mengkolaborasikan teknologi dan tradisi, DiTenun diciptakan untuk meniupkan ruh tradisi tenun ke masa depan. Proyek ini bertujuan untuk mengembangkan model klasifikasi gambar kain ulos, sebuah kain tradisional dari Sumatera Utara, dengan menggunakan algoritma K-Nearest Neighbors (KNN). Kain ulos memiliki berbagai pola dan motif unik yang menunjukkan makna simbolik dan nilai budaya, sehingga pengenalan dan klasifikasinya memerlukan pendekatan yang tepat. KNN, sebagai algoritma klasifikasi berbasis kedekatan, akan diterapkan untuk mengelompokkan gambar-gambar ulos ke dalam beberapa kategori sesuai dengan motifnya.
 
+![uloss](https://github.com/user-attachments/assets/dad32f32-53d3-4d8b-8684-8056ff139ebb)
 
 ### Tahapan Proyek CRISP-DM (Cross-Industry Standard Process for Data Mining):
 #### 📊 Business Understanding
