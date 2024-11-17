@@ -6,7 +6,35 @@ DiTenun (Digital Tenun Nusantara) adalah start up yang berfokus pada penciptaan 
 
 ### Tahapan Proyek CRISP-DM (Cross-Industry Standard Process for Data Mining):
 #### 📊 Business Understanding
-Memahami kebutuhan bisnis dan menentukan tujuan proyek agar sesuai dengan dasar proyek ini.
+Motif ulos memiliki peran penting dalam budaya Batak, masing-masing motif mewakili makna dan identitas suku yang berbeda, seperti Batak Toba, Karo, dan Simalungun. Pengenalan dan klasifikasi motif ulos secara manual membutuhkan pengetahuan mendalam dan waktu yang tidak sedikit, yang membatasi efisiensi dalam proses pengarsipan dan digitalisasi motif ulos. Oleh karena itu, adanya solusi otomatis berbasis kecerdasan buatan dapat mendukung digitalisasi motif ulos, yang pada gilirannya dapat meningkatkan aksesibilitas dan pelestarian warisan budaya ini.
+
+Proyek ini bertujuan untuk:
+
+1. Mengembangkan sistem klasifikasi gambar motif ulos menggunakan algoritma K-Nearest Neighbors (KNN) untuk mengidentifikasi motif terkecil dengan akurasi tinggi.
+2. Meningkatkan akurasi dan efisiensi pengenalan pola-pola ulos guna mendukung digitalisasi motif dalam platform DiTenun, yang merupakan inisiatif untuk memperkenalkan dan mempromosikan kain tenun tradisional dengan cara modern dan teknologi.
+
+Keberhasilan proyek ini dapat membawa dampak positif dalam pengembangan basis data digital motif ulos, yang memungkinkan pengguna seperti desainer, peneliti, atau masyarakat umum untuk lebih mudah mengakses, mempelajari, dan menggunakan motif ulos dalam berbagai konteks. Selain itu, proyek ini dapat mendukung pelestarian budaya Batak dengan menyediakan metode yang lebih modern untuk dokumentasi dan pengenalan motif ulos.
+
+##### Rencana Pengerjaan Proyek
+| Aktivitas            | Sub Aktivitas            | Detail                                           | Minggu 12               | Minggu 13               | Minggu 14               | Minggu 15               | Minggu 16               |
+|----------------------|--------------------------|--------------------------------------------------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| *Persiapan*        | Pemilihan Kasus          |                                                  |                         |                         |                         |                         |                         |
+|                      | Penentuan Algoritma      |                                                  |                         |                         |                         |                         |                         |
+| *Pelaksanaan*      | Business Understanding   | Menentukan Objektif Bisnis                       |                         |                         |                         |                         |                         |
+|                      |                          | Menentukan Tujuan Bisnis                         |                         |                         |                         |                         |                         |
+|                      |                          | Membuat Rencana Proyek                           |                         |                         |                         |                         |                         |
+| *Data Understanding*| Mengumpulkan Data       |                                                  |                         |                         |                         |                         |                         |
+|                      | Mendeskripsikan dan Menelaah Data |                                         |                         |                         |                         |                         |                         |
+|                      | Memvalidasi Data         |                                                  |                         |                         |                         |                         |                         |
+| *Data Preparation* | Memilah Data             |                                                  |                         |                         |                         |                         |                         |
+|                      | Membersihkan Data        |                                                  |                         |                         |                         |                         |                         |
+|                      | Mengkonstruksi Data      |                                                  |                         |                         |                         |                         |                         |
+|                      | Menentukan Label Data    |                                                  |                         |                         |                         |                         |                         |
+|                      | Mengintegrasikan Data    |                                                  |                         |                         |                         |                         |                         |
+| *Modeling*        | Membangun Skenario Pengujian |                                                |                         |                         |                         |                         |                          |
+|                      | Membangun Model          |                                                  |                         |                         |                         |                         |                  |
+| *Model Evaluation* | Mengevaluasi Hasil Pemodelan |                                              |                         |                         |                         |                         |                       |
+|                      | Melakukan Review Proses Pemodelan |                                        |                         |                         |                         |                         |                         
 
 #### 📈 Data Understanding
 Melakukan eksplorasi data untuk memahami karakteristik dan relevansinya dalam konteks proyek.
