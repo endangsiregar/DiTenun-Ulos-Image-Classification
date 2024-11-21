@@ -51,7 +51,7 @@ Evaluasi performa model berdasarkan metrik yang relevan untuk menilai keberhasil
 ### 👥 Contributors
  - [12S21054 - Diah Anastasya Sihombing](https://github.com/diahanastasya22)
  - [12S21055 - Lamria Magdalena Tampubolon](https://github.com/lamriatamp)
- - [12S21055 - Endang Siregar](https://github.com/endangsiregar)
+ - [12S21056 - Endang Siregar](https://github.com/endangsiregar)
 
 
 
