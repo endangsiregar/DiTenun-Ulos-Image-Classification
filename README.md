@@ -1,17 +1,17 @@
 # Group 12 : DiTenun - Ulos Image Classification
-## Klasifikasi gambar ulos menggunakan KNN
-DiTenun (Digital Tenun Nusantara) adalah start up yang berfokus pada penciptaan motif tenun digital lewat aplikasi berbasis AI (kecerdasan buatan). Mengkolaborasikan teknologi dan tradisi, DiTenun diciptakan untuk meniupkan ruh tradisi tenun ke masa depan. Proyek ini bertujuan untuk mengembangkan model klasifikasi gambar kain ulos, sebuah kain tradisional dari Sumatera Utara, dengan menggunakan algoritma K-Nearest Neighbors (KNN). Kain ulos memiliki berbagai pola dan motif unik yang menunjukkan makna simbolik dan nilai budaya, sehingga pengenalan dan klasifikasinya memerlukan pendekatan yang tepat. KNN, sebagai algoritma klasifikasi berbasis kedekatan, akan diterapkan untuk mengelompokkan gambar-gambar ulos ke dalam beberapa kategori sesuai dengan motifnya.
+## Klasifikasi Gambar Ulos Menggunakan EfficientNet 
+DiTenun (Digital Tenun Nusantara) adalah startup yang berfokus pada pengembangan motif tenun digital melalui aplikasi berbasis kecerdasan buatan (AI). Menggabungkan teknologi modern dengan tradisi, DiTenun hadir untuk membawa kekayaan budaya tenun ke masa depan. Proyek ini bertujuan mengembangkan model klasifikasi gambar kain ulos, kain tradisional dari Sumatera Utara, menggunakan model deep learning berbasis EfficientNet. Kain ulos memiliki pola dan motif yang kaya simbolisme budaya, yang mewakili berbagai suku di Sumatera Utara, seperti Batak Toba, Karo, dan Simalungun. Oleh karena itu, klasifikasi motif ulos memerlukan pendekatan teknologi yang tepat, agar hasilnya akurat dan efisien.
+
+EfficientNet, sebagai model deep learning yang terbukti efisien dalam pengenalan gambar, akan digunakan untuk mengklasifikasikan gambar-gambar kain ulos ke dalam berbagai kategori berdasarkan motif yang dimilikinya. Keunggulan EfficientNet terletak pada kemampuannya untuk memberikan akurasi tinggi dengan pengaturan parameter yang lebih efisien dibandingkan model lain yang lebih kompleks
 
 ![uloss](https://github.com/user-attachments/assets/dad32f32-53d3-4d8b-8684-8056ff139ebb)
 
 ### Tahapan Proyek CRISP-DM (Cross-Industry Standard Process for Data Mining):
 #### 📊 Business Understanding
-Motif ulos memiliki peran penting dalam budaya Batak, masing-masing motif mewakili makna dan identitas suku yang berbeda, seperti Batak Toba, Karo, dan Simalungun. Pengenalan dan klasifikasi motif ulos secara manual membutuhkan pengetahuan mendalam dan waktu yang tidak sedikit, yang membatasi efisiensi dalam proses pengarsipan dan digitalisasi motif ulos. Oleh karena itu, adanya solusi otomatis berbasis kecerdasan buatan dapat mendukung digitalisasi motif ulos, yang pada gilirannya dapat meningkatkan aksesibilitas dan pelestarian warisan budaya ini.
-
+Motif ulos memiliki makna yang sangat penting dalam budaya Batak, masing-masing motif mewakili simbol dan identitas dari suku yang berbeda. Pengenalan dan klasifikasi motif ulos secara manual memerlukan pengetahuan yang mendalam serta waktu yang tidak sedikit. Proses ini juga membatasi efisiensi dalam pengarsipan dan digitalisasi motif ulos. Oleh karena itu, solusi otomatis berbasis kecerdasan buatan sangat dibutuhkan untuk meningkatkan efisiensi dalam mengenali dan mengelompokkan motif-motif ulos.
 Proyek ini bertujuan untuk:
 
-1. Mengembangkan sistem klasifikasi gambar motif ulos menggunakan algoritma K-Nearest Neighbors (KNN) untuk mengidentifikasi motif terkecil dengan akurasi tinggi.
-2. Meningkatkan akurasi dan efisiensi pengenalan pola-pola ulos guna mendukung digitalisasi motif dalam platform DiTenun, yang merupakan inisiatif untuk memperkenalkan dan mempromosikan kain tenun tradisional dengan cara modern dan teknologi.
+1. Mengembangkan sistem klasifikasi gambar motif ulos menggunakan model deep learning EfficientNet untuk meningkatkan akurasi identifikasi motif.
 
 Keberhasilan proyek ini dapat membawa dampak positif dalam pengembangan basis data digital motif ulos, yang memungkinkan pengguna seperti desainer, peneliti, atau masyarakat umum untuk lebih mudah mengakses, mempelajari, dan menggunakan motif ulos dalam berbagai konteks. Selain itu, proyek ini dapat mendukung pelestarian budaya Batak dengan menyediakan metode yang lebih modern untuk dokumentasi dan pengenalan motif ulos.
 
