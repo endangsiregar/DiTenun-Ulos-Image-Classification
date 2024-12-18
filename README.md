@@ -1,8 +1,10 @@
 # Group 12 : DiTenun - Ulos Image Classification
-## Klasifikasi Gambar Ulos Menggunakan EfficientNet 
-DiTenun (Digital Tenun Nusantara) adalah startup yang berfokus pada pengembangan motif tenun digital melalui aplikasi berbasis kecerdasan buatan (AI). Menggabungkan teknologi modern dengan tradisi, DiTenun hadir untuk membawa kekayaan budaya tenun ke masa depan. Proyek ini bertujuan mengembangkan model klasifikasi gambar kain ulos, kain tradisional dari Sumatera Utara, menggunakan model deep learning berbasis EfficientNet. Kain ulos memiliki pola dan motif yang kaya simbolisme budaya, yang mewakili berbagai suku di Sumatera Utara, seperti Batak Toba, Karo, dan Simalungun. Oleh karena itu, klasifikasi motif ulos memerlukan pendekatan teknologi yang tepat, agar hasilnya akurat dan efisien.
+## Klasifikasi Gambar Ulos Menggunakan K-Nearest Neighbors (KNN)
+DiTenun (Digital Tenun Nusantara) adalah sebuah startup yang berfokus pada pengembangan motif tenun digital melalui aplikasi berbasis kecerdasan buatan (AI). Dengan menggabungkan teknologi modern dan tradisi, DiTenun bertujuan untuk membawa kekayaan budaya tenun ke masa depan. Proyek ini bertujuan untuk mengembangkan model klasifikasi gambar kain ulos, kain tradisional dari Sumatera Utara, menggunakan model K-Nearest Neighbors (KNN).
 
-EfficientNet, sebagai model deep learning yang terbukti efisien dalam pengenalan gambar, akan digunakan untuk mengklasifikasikan gambar-gambar kain ulos ke dalam berbagai kategori berdasarkan motif yang dimilikinya. Keunggulan EfficientNet terletak pada kemampuannya untuk memberikan akurasi tinggi dengan pengaturan parameter yang lebih efisien dibandingkan model lain yang lebih kompleks
+Kain ulos memiliki pola dan motif yang kaya akan simbolisme budaya, yang mewakili berbagai suku di Sumatera Utara, seperti Batak Toba, Karo, dan Simalungun. Oleh karena itu, klasifikasi motif ulos membutuhkan pendekatan teknologi yang tepat untuk memastikan hasil yang akurat dan efisien. Dalam hal ini, model K-Nearest Neighbors (KNN) akan digunakan untuk mengklasifikasikan gambar-gambar kain ulos ke dalam berbagai kategori berdasarkan motifnya.
+
+KNN merupakan algoritma supervised learning berbasis jarak yang bekerja dengan cara mencari k tetangga terdekat dari titik data yang tidak diketahui kelasnya. Keunggulan dari KNN adalah kesederhanaannya dan kemampuannya untuk bekerja dengan baik pada dataset dengan variasi yang tinggi. Dengan menggunakan model ini, diharapkan proses klasifikasi motif ulos dapat dilakukan dengan baik meskipun terdapat tantangan berupa variasi visual yang kompleks antar kelas.
 
 ![uloss](https://github.com/user-attachments/assets/dad32f32-53d3-4d8b-8684-8056ff139ebb)
 
