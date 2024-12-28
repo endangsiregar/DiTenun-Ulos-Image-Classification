@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Container Styles */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            border: 2px solid #8b0000;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Header Styles */
+        h1 {
+            background-color: #8b0000;
+            color: #fff;
+            margin: 0;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 1.8em;
+        }
+
+        /* Image Styles */
+        .image-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Content Styles */
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        p strong {
+            color: #8b0000;
+        }
+
+        .placeholder {
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Button Styles */
+        .button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #8b0000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #5a0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <h1>Classification Result</h1>
+
+        <!-- Image Display -->
+        <div class="image-container">
+            <img src="{{ image_path }}" alt="Uploaded Image">
+        </div>
+
+        <!-- Result Content -->
+        <div class="content">
+            <p><strong>Jenis Ulos:</strong> {{ prediction }}</p>
+
+            <p><strong>Manfaat Ulos:</strong> 
+                {% if manfaat %}
+                    {{ manfaat }}
+                {% else %}
+                    <span class="placeholder">Ulos ini digunakan dalam upacara adat sebagai tanda penghormatan kepada orang tua atau leluhur.</span>
+                {% endif %}
+            </p>
+
+            <p><strong>Tujuan Penggunaan:</strong> 
+                {% if tujuan %}
+                    {{ tujuan }}
+                {% else %}
+                    <span class="placeholder">Biasanya dipakai dalam acara kelahiran bayi atau pemberian berkat kepada orang tua.</span>
+                {% endif %}
+            </p>
+
+            <p><strong>Deskripsi:</strong> 
+                {% if deskripsi %}
+                    {{ deskripsi }}
+                {% else %}
+                    <span class="placeholder">Ulos Ragihotang adalah jenis ulos yang memiliki makna mendalam dalam kehidupan adat Batak, khususnya untuk memberikan restu dan doa.</span>
+                {% endif %}
+            </p>
+        </div>
+
+        <!-- Button -->
+        <div style="text-align: center;">
+            <a href="/" class="button">Classify Another Image</a>
+        </div>
+    </div>
+</body>
+</html>
